@@ -128,10 +128,111 @@ article {
     color: gray;
     font-weight: bold;
     margin-top: -30px;
+
+}
+.serieSeasons div {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 10px;
 }
 
+.serieSeasons div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.serieSeasons .playButton {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top:20%;
+    left: 35%;
+    right: 0;
+    opacity: 0.8;
+}
+
+.serieSeasons p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: gainsboro;
+}
+.s2 {
+    opacity: 0.4;
+}
+.s3 {
+    opacity: 0.2;
+}
+.twoButtons {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+
+.twoButtons div:nth-child(2) {
+    margin-left: 40px;
+}
+.watchButton {
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.watchButton * {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+    
+}
+
+.myFavButton {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.myFavButton * {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+    
+}
 .rightSection {
     grid-area: rightSection;
 }
+
+
+
 
 /*#endregion*/
