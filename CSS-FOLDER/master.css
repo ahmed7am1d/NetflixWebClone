@@ -98,7 +98,7 @@ nav img:hover {
 article {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     grid-template-areas: 
     "leftSection rightSection";
@@ -199,6 +199,12 @@ article {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    box-shadow: 1px 1px 3px white,-1px -1px 3px white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 .watchButton * {
     display: inline-block;
@@ -206,7 +212,9 @@ article {
     margin-left: 13px;
     
 }
-
+.watchButton:hover {
+    opacity: 0.7;
+}
 .myFavButton {
     background-color: white;
     color: black;
@@ -220,6 +228,16 @@ article {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    box-shadow: 1px 1px 3px red,-1px -1px 3px red;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.myFavButton:hover {
+    opacity: 0.7;
 }
 
 .myFavButton * {
@@ -278,7 +296,5 @@ article {
 .actorDescription p {
     color: gray;
 }
-
-
 
 /*#endregion*/
