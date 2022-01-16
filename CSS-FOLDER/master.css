@@ -35,6 +35,31 @@ nav img{
     -o-transition: 0.5s;
 }
 
+nav .brandLogo {
+    animation-name: logoFlip;
+    animation-duration: 2s;
+    
+}
+
+@keyframes logoFlip {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+    
+}
+
 nav img:hover {
     transform: scale(1.4);
     -webkit-transform: scale(1.4);
